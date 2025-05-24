@@ -69,6 +69,4 @@ if __name__ == "__main__":
     geometry_pipeline(image_path, "output/000.glb")
     geometry_label_pipeline(image_path, "output/000-label.glb")
     texture_pipeline(image_path, "output/000.glb", "output/000-textured.glb")
-    texture_pipeline(
-        image_path, "output/000-label.glb", "output/000-label-textured.glb"
-    )
+    texture_pipeline(image_path, "output/000-label.glb", "output/000-label-textured.glb")
